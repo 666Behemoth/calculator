@@ -1,0 +1,36 @@
+#======================================
+#=========== Lord Cemiterio ===========
+#======================================
+
+num1 = int(input("Insira um número: "))
+op = input("Insira a operação: ")
+num2 = int(input("Insira outro número: "))
+
+if (op=='+'):
+    print()
+    print(num1, op, num2, "=", num1 + num2)
+else:
+
+if (op=='/'):
+    print()
+    print(num1, "÷", num2, "=", num1 / num2)
+else:
+
+if (op=='*'):
+    print()
+    print(num1, "x", num2, "=", num1 * num2)
+else:
+
+if (op=='-'):
+    print()
+    print(num1, "-", num2, "=", num1 - num2)
+else:
+
+if (op=='^'):
+    print()
+    print(num1, "^", num2, "=", num1 ** num2)
+else:
+
+if (op!='+' '/' '*' '-' '^'):
+    print()
+    print("Operação inválida.")
